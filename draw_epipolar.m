@@ -1,4 +1,4 @@
-function [] = tracer_les_droites_epipolairs( F_matrix, ImgLeft, ImgRight, PtsLeft, PtsRight)
+function [] = draw_epipolar( F_matrix, ImgLeft, ImgRight, PtsLeft, PtsRight)
     Pul=[1 1 1];
     Pbl=[1 size(ImgLeft,1) 1];
     Pur=[size(ImgLeft,2) 1 1];
